@@ -1,0 +1,58 @@
+
+
+/* One method to add font in download font family by google font */
+
+/* @font-face {
+    font-family:"Quicksand";
+    src: url(font/Quicksand-VariableFont_wght.ttf);
+} */
+
+
+
+
+/* Other method is to use CDN by google font  and add link to html page*/
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "Quicksand"; */
+
+     font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 120px;
+    padding-top: 50px;
+    text-decoration: none;
+}
+.div1{
+    float: left;
+    padding-top: 250px;
+    padding-left: 100px;
+}
+.div2{
+    float: left;
+    padding-top: 250px;
+    padding-left: 100px;
+    color: white;
+    line-height: 2;
+    text-align: center;
+    
+}
+/* .button{
+    color: white;
+    border-radius: 100px;
+} */
